@@ -1,0 +1,63 @@
+#container{
+    height:900px;
+    width:100%;
+    margin:auto;
+    border-color:black;
+    
+    
+}  
+
+#Title{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom:10px;
+}
+
+img{
+    padding-top:10px;
+    width:70px;
+    height:70px;
+
+}
+
+#English{
+    height:500px;
+    width:49%;
+    border:solid;
+    border-color:pink;
+    background-color: pink;
+    float:left;
+    text-align: center;
+    padding-top:2%;
+    color:black;
+}
+
+#Japanese{
+    height:500px;
+    width:50%;
+    border:solid;
+    border-color:lightblue;
+    background:lightblue;
+    color:black;
+    float:right;
+    text-align: center;
+    padding-top:2%;
+}
+
+.banner{
+    font-size:20px;
+}
+
+.selectBox{
+    height:10%;
+    width:45%;
+    border:solid;
+    border-color:black;
+    margin:auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 5%;
+    padding-top: 5%;
+    background:white;
+
+}
