@@ -41,9 +41,7 @@ img{
 #English{
     grid-column: 1/2;
     
-    
-   
-    
+
     border-color:navy;
     float:left;
     text-align: center;
@@ -56,8 +54,7 @@ img{
 #Japanese{ 
    grid-column:2/4;
     
-    
-   
+  
     border-color:rgb(194, 42, 42);
     color:black;
     float:right;
