@@ -1,58 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+
 #container{
-    height:900px;
+    display:grid;
+    grid-template-columns: repeat (auto-fit, minmax(300px, 1fr));
+
+
+    height:500%;
     width:100%;
     margin:auto;
     border-color:black;
     
     
+    
 }  
 
 #Title{
-    text-align: center;
-    font-size: 50px;
-    padding-bottom:10px;
+    grid-column: 1/4;
+
+
+    text-align: left;
+    font-size: 150%;
+    font-weight:300;
+    margin-bottom:5%;
+    
+   
 }
 
 img{
     padding-top:10px;
-    width:70px;
-    height:70px;
+    width:50px;
+    height:50px;
+    
 
 }
 
 #English{
-    height:500px;
-    width:49%;
-    border:solid;
-    border-color:pink;
-    background-color: pink;
+    grid-column: 1/2;
+    
+    
+   
+    
+    border-color:navy;
     float:left;
     text-align: center;
     padding-top:2%;
     color:black;
+    border-radius:5%;
+    
 }
 
-#Japanese{
-    height:500px;
-    width:50%;
-    border:solid;
-    border-color:lightblue;
-    background:lightblue;
+#Japanese{ 
+   grid-column:2/4;
+    
+    
+   
+    border-color:rgb(194, 42, 42);
     color:black;
     float:right;
     text-align: center;
     padding-top:2%;
+    border-radius:5%;
+    
 }
 
 .banner{
     font-size:20px;
 }
 
+#Footer{
+    grid-column:1/4;
+ 
+}
+
 .selectBox{
-    height:10%;
-    width:45%;
+    height:100px;
+    width:100px;
     border:solid;
-    border-color:black;
+    border-color:gray;
     margin:auto;
     margin-top: 10%;
     text-align: center;
@@ -61,3 +90,4 @@ img{
     background:white;
 
 }
+
